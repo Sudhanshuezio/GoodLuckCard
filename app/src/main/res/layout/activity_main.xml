@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.makeyourowncard.goodluckcard.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/elonthree"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="If you need inspiring words, don't do it !"
+            android:textSize="36sp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#D4D2D2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Good Luck !"
+            android:textSize="26sp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#D4D2D2"
+            android:paddingTop="10dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:textSize="36sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From Sudhanshu"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:fontFamily="sans-serif-condensedmonospace"
+        android:textColor="#D4D2D2"
+        android:id="@+id/textView"
+        android:padding="20dp"/>
+
+
+
+
+
+</RelativeLayout>
